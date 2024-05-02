@@ -170,7 +170,7 @@ flex-shrink: 0;
 
 /*********************************/
 .parent-span{
-  margin-top: -11px;
+  margin-top: 5px;
   color:  var(--main-color-3);
 font-size: 10px;
 font-weight: 400;
