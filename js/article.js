@@ -18,9 +18,12 @@ $(".son-link div").on("click", function (e) {
  const playerr = new Plyr("#playerr", {
    controls: [
      "play-large",
+     "play",
      "progress",
      "current-time",
      "captions",
+     "pip",
+     "airplay",
      "fullscreen",
    ],
    youtube: {
