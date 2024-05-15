@@ -1,7 +1,9 @@
 
 @import url('index.css');
 
-
+:root{
+  --plyr-color-main:#C35C57;
+}
 .top-article{
 padding: 52px 22px 0;
 background-color: var(--main-color-4);
@@ -252,7 +254,8 @@ height: 43px;
 border-radius: 8px;
 
 }
-.top-article .news-imge h6{
+.top-article .news-imge h6,.top-article .news-imge a{
+  color: black;
 text-align: right;
 font-size: 14px;
 font-weight: 700;
@@ -358,4 +361,11 @@ line-height: 130%; /* 15.6px */
 }
 .slick-track{
   display: flex;
+}
+.sonson a{
+   color: var(--black, #222);
+text-align: center;
+font-size: 12px;
+font-weight: 700;
+line-height: 130%; /* 15.6px */
 }
